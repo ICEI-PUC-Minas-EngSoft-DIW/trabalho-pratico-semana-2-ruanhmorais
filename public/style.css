@@ -1,0 +1,90 @@
+/* --- GERAL --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Um cinza bem claro para o fundo */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* --- CONTAINER PRINCIPAL --- */
+.container {
+    max-width: 850px;
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+/* --- CABEÇALHO --- */
+header {
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%; /* Deixa a foto redonda */
+    object-fit: cover; /* Evita que a imagem se distorça */
+    border: 4px solid #007bff; /* Borda azul na foto */
+}
+
+h1 {
+    margin: 15px 0 5px 0;
+    color: #333;
+    font-size: 2.2em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.contact-info a {
+    color: #007bff; /* Cor padrão de link azul */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* --- SEÇÕES PRINCIPAIS (Sobre, Experiência, etc.) --- */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #0056b3; /* Um tom de azul mais escuro para os títulos */
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* --- ITENS ESPECÍFICOS --- */
+.job h3, .education-item h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.job p, .education-item p {
+    margin: 0 0 10px 0;
+    color: #555;
+    font-style: italic;
+}
